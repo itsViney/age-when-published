@@ -5,7 +5,7 @@
   "version": "2.0",
   "title": "Age When Published",
   "category": "widgets",
-  "icon": "clock",
+  "icon": "buddicons-community",
   "description": "Shows the age as at the post's publish date, based on a date of birth defined on the Settings page.",
   "example": {},
   "supports": {
