@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/age-when-published",
+  "version": "2.0",
+  "title": "Age When Published",
+  "category": "widgets",
+  "icon": "clock",
+  "description": "Shows the age as at the post's publish date, based on a date of birth defined on the Settings page.",
+  "example": {},
+  "supports": {
+    "anchor": true,
+    "className": false,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "margin": false,
+        "padding": false
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalWritingMode": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "__experimentalSelector": "p",
+    "__unstablePasteTextInline": true
+  },
+  "textdomain": "age-when-published",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
