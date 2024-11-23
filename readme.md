@@ -4,6 +4,10 @@ A simple Wordpress block plugin that displays the age of a person when a post wa
 
 I built this plugin/block for a private Wordpress site I'm using as a sort-of diary/digital scapbook for my child. I wanted to be able to show how old they were when each post was written. I initially wrote it as a shortcode but when I migrated to a Block theme, I decided to re-write it as a Gutenberg block.
 
+## Download
+
+Feel free to clone the repo, or if you just want a zip ready to upload to Wordpress, you can [download the latest version here](https://github.com/itsViney/age-when-published/releases/latest).
+
 ## Screenshots
 
 Here are a few examples of how it looks on the front-end.
