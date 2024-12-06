@@ -1,4 +1,4 @@
-# Age When Published
+# Age When Published Wordpress Block
 
 A simple Wordpress block plugin that displays the age of a person when a post was published. The age is calculated from a date of birth specified under **Settings > Age When Published**.
 
